@@ -6,25 +6,35 @@ public class Book {
     private int releaseDate;
     private Author author;
     private String editorial;
-    //private String type;
-    //private String soldUnits;
-    //private int pageQuantity;
-    //private int antiquityYears;
+    private BookType type;
+    private String soldUnits;
+    private int pageQuantity;
+    private int antiquityYears;
 
     public Book(){}
 
-    public Book(String bookName, int releaseDate, Author author, String editorial){
+    public Book(String bookName, int releaseDate, Author author, String editorial, BookType bookType, String soldUnits,
+                int pageQuantity, int antiquityYears){
         this.bookName = bookName;
         this.releaseDate = releaseDate;
         this.author = author;
         this.editorial = editorial;
+        this.type = bookType;
+        this.soldUnits = soldUnits;
+        this.pageQuantity = pageQuantity;
+        this.antiquityYears = antiquityYears;
     }
 
-    public Book(String bookName, int releaseDate, String authorName, String authorOriginCountry, String editorial){
+    public Book(String bookName, int releaseDate, String authorName, String authorOriginCountry, String editorial,
+                BookType bookType, String soldUnits, int pageQuantity, int antiquityYears){
         this.bookName = bookName;
         this.releaseDate = releaseDate;
         this.author = new Author(authorName, authorOriginCountry);
         this.editorial = editorial;
+        this.type = bookType;
+        this.soldUnits = soldUnits;
+        this.pageQuantity = pageQuantity;
+        this.antiquityYears = antiquityYears;
     }
 
     public String getBookName() {
@@ -59,10 +69,25 @@ public class Book {
         this.editorial = editorial;
     }
 
+    public void setType(BookType type) {
+        this.type = type;
+    }
+
+    public void setPageQuantity(int pageQuantity) {
+        this.pageQuantity = pageQuantity;
+    }
+
+    public void setSoldUnits(String soldUnits) {
+        this.soldUnits = soldUnits;
+    }
+
+    public void setAntiquityYears(int antiquityYears) {
+        this.antiquityYears = antiquityYears;
+    }
+
     @Override
     public String toString(){
-        return "\"\"%s\"\" - (%s) \n Written by: %s \n Published by: %s"
-                .formatted(this.getBookName(), this.getReleaseDate() ,this.getAuthor().toString(), this.getEditorial());
+        return bookName + releaseDate + author.toString() + editorial;
     }
 
 }
