@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.Objects;
 
 public class Book {
 
@@ -85,9 +86,24 @@ public class Book {
         this.antiquityYears = antiquityYears;
     }
 
+
     @Override
     public String toString(){
         return bookName + releaseDate + author.toString() + editorial;
     }
-
+    @Override
+    public boolean equals(Object obj){
+        // libro, autor, fechaPublicacion
+        if(obj instanceof Book){
+            Book otherBook = (Book) obj;
+            return  this.getBookName().equals(otherBook.bookName) &&
+                    this.getAuthor().equals(otherBook.author) &&
+                    this.getReleaseDate() == otherBook.releaseDate;
+        }
+        return false;
+    }
+    @Override
+    public int hashCode(){
+        return Objects.hash(this.getBookName() + this.getAuthor() + this.getReleaseDate());
+    }
 }
