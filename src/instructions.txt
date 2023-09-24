@@ -1,0 +1,13 @@
+Se tiene un conjuto de datos sobre libros, de este conjunto realizar las siguentes tareas:
+ - Crear la clase necesaria para contener estos datos
+ - Sobreescribir el metodo toString, para mostrar los siguientes datos: nombre del libro, anio de publicacion, autor y editorial.
+ - Sobreescribir el metodo hashCode y equals para que cuando se igualen objetos de esta clase, solo se tome en cuenta esta informacion: libro, autor, fechaPublicacion
+ - Escojer una estructura que permita el guardado de esta informacion
+
+Bajo esas condiciones realizar los siguientes ejercicios:
+ - Mostrar los libros con la siguiente informacion: nombre del libro, anio de publicacion, autor y editorial. En cualquier orden usando STREAM o ITERADOR
+ - Filtrar los libros pais, es decir, si ingreso Bolivia, se deben mostrar todos los libros que tienen ese dato de su autor
+ - Ordenar mediante el nombre de los nombres de los libros, el orden alfabetico de forma descendente, ie: Z-A
+ - Eliminar los registros de libros repetidos y contar cuantos quedan usando STREAMS
+ - Crear una clase donde se guarde el autor y su pais, mostrar estos registros sin datos repetidos en cualquier orden
+ - Usando STREAMS buscar un libro por su autor, si el dato se encuentra, mostrar el mensaje: AUTOR POPULAR, caso contrario: AUTOR NO ENCONTRADO
