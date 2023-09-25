@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class DataReader {
 
-    private static final String SEPARATOR = ",";
+    private static final String SEPARATOR = "\\|";
     public static void ReadFile(String path) throws IOException {
         File file = new File(path);
         Scanner buffer = new Scanner(file);

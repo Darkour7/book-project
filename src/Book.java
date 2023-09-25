@@ -1,4 +1,3 @@
-import java.util.Date;
 import java.util.Objects;
 
 public class Book {
@@ -7,14 +6,14 @@ public class Book {
     private int releaseDate;
     private Author author;
     private String editorial;
-    private BookType type;
+    private String type;
     private String soldUnits;
     private int pageQuantity;
     private int antiquityYears;
 
     public Book(){}
 
-    public Book(String bookName, int releaseDate, Author author, String editorial, BookType bookType, String soldUnits,
+    public Book(String bookName, int releaseDate, Author author, String editorial, String bookType, String soldUnits,
                 int pageQuantity, int antiquityYears){
         this.bookName = bookName;
         this.releaseDate = releaseDate;
@@ -27,7 +26,7 @@ public class Book {
     }
 
     public Book(String bookName, int releaseDate, String authorName, String authorOriginCountry, String editorial,
-                BookType bookType, String soldUnits, int pageQuantity, int antiquityYears){
+                String bookType, String soldUnits, int pageQuantity, int antiquityYears){
         this.bookName = bookName;
         this.releaseDate = releaseDate;
         this.author = new Author(authorName, authorOriginCountry);
@@ -70,7 +69,7 @@ public class Book {
         this.editorial = editorial;
     }
 
-    public void setType(BookType type) {
+    public void setType(String type) {
         this.type = type;
     }
 
@@ -89,11 +88,10 @@ public class Book {
 
     @Override
     public String toString(){
-        return bookName + releaseDate + author.toString() + editorial;
+        return bookName + " ; " +releaseDate+ " ; " +author.toString()+ " ; " +editorial;
     }
     @Override
     public boolean equals(Object obj){
-        // libro, autor, fechaPublicacion
         if(obj instanceof Book){
             Book otherBook = (Book) obj;
             return  this.getBookName().equals(otherBook.bookName) &&

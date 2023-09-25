@@ -1,35 +1,35 @@
-﻿libro,autor,tipo,editorial,paisAutor,ejemplaresVendidos,fechaPublicacion, cantidadPaginas, antiguedad
-Don Quijote de la Mancha,Miguel de Cervantes,Novela de Caballerías,Juan de la Cuesta,España,Más de 500 millones,1605,1072,416
-El Señor de los Anillos: La Comunidad del Anillo,J.R.R. Tolkien,Fantasía Épica,Allen & Unwin,Reino Unido,Más de 150 millones,1954,1178,68
-Harry Potter y la Piedra Filosofal,J.K. Rowling,Fantasía,Bloomsbury,Reino Unido,Más de 120 millones,1997,332,24
-Cien Años de Soledad,Gabriel García Márquez,Realismo Mágico,Editorial Sudamericana,Colombia,Más de 30 millones,1967,448,56
-1984,George Orwell,Distopía,Secker & Warburg,Reino Unido,Más de 30 millones,1949,328,74
-El Gran Gatsby,F. Scott Fitzgerald,Novela Americanista,Charles Scribner's Sons,EE. UU.,Más de 30 millones,1925,180,98
-Matar un Ruiseñor,Harper Lee,Novela Legal,J.B. Lippincott & Co.,EE. UU.,Más de 40 millones,1960,376,61
-Crónica de una Muerte Anunciada,Gabriel García Márquez,Novela Realista,Editorial La Oveja Negra,Colombia,Más de 30 millones,1981,128,42
-El Alquimista,Paulo Coelho,Ficción Espiritual,HarperOne,Brasil,Más de 65 millones,1988,197,33
-El Código Da Vinci,Dan Brown,Thriller de Conspiración,Doubleday,EE. UU.,Más de 80 millones,2003,454,18
-El Hobbit,J.R.R. Tolkien,Fantasía,Allen & Unwin,Reino Unido,Más de 100 millones,1937,310,86
-El Niño con el Pijama de Rayas,John Boyne,Ficción Histórica,David Fickling Books,Irlanda,Más de 7 millones,2006,215,17
-Los Juegos del Hambre,Suzanne Collins,Ciencia Ficción,Scholastic,EE. UU.,Más de 100 millones,2008,374,14
-Orgullo y Prejuicio,Jane Austen,Novela Romántica,T. Egerton,Reino Unido,Más de 20 millones,1813,279,208
-Cazadores de Sombras: Ciudad de Hueso,Cassandra Clare,Fantasía Urbana,Simon & Schuster,EE. UU.,Más de 50 millones,2007,485,16
-Los Pilares de la Tierra,Ken Follett,Novela Histórica,William Morrow,Reino Unido,Más de 26 millones,1989,973,32
-Los Juegos del Hambre: Sinsajo,Suzanne Collins,Ciencia Ficción,Scholastic,EE. UU.,Más de 80 millones,2010,340,12
-La Sombra del Viento,Carlos Ruiz Zafón,Misterio,Planeta,España,Más de 15 millones,2001,535,22
-El Corredor del Laberinto,James Dashner,Ciencia Ficción,Delacorte Press,EE. UU.,Más de 7 millones,2009,384,12
-El Perfume,Patrick Süskind,Novela Histórica,Diogenes Verlag,Alemania,Más de 20 millones,1985,255,36
-Los Hombres Me Explican Cosas,Rebecca Solnit,Ensayo,Haymarket Books,EE. UU.,Más de 500000,2014,176,7
-El Señor de los Anillos: Las Dos Torres,J.R.R. Tolkien,Fantasía Épica,Allen & Unwin,Reino Unido,Más de 150 millones,1954,416,68
-Las Crónicas de Narnia: El León la Bruja y el Ropero,C.S. Lewis,Fantasía,Geoffrey Bles,Reino Unido,Más de 100 millones,1950,208,71
-El Cuento de la Criada,Margaret Atwood,Drama Distópico,McClelland & Stewart,Canadá,Más de 8 millones,1985,311,36
-El Cazador de Sueños,Stephen King,Terror,Scribner,EE. UU.,Más de 20 millones,2001,672,20
-El Nombre del Viento,Patrick Rothfuss,Fantasía Épica,Daw Books,EE. UU.,Más de 10 millones,2007,662,14
-1984,George Orwell,Distopía,Harvill Secker,Reino Unido,Más de 30 millones,1949,336,74
-Harry Potter y la Cámara Secreta,J.K. Rowling,Fantasía,Bloomsbury,Reino Unido,Más de 77 millones,1998,360,23
-Don Quijote de la Mancha,Miguel de Cervantes,Novela de Caballerías,Juan de la Cuesta,España,Más de 500 millones,1605,1072,416
-El Señor de los Anillos,J.R.R. Tolkien,Fantasía Épica,Allen & Unwin,Reino Unido,Más de 150 millones,1954,1178,68
-Harry Potter y la Piedra Filosofal,J.K. Rowling,Fantasía,Bloomsbury,Reino Unido,Más de 120 millones,1997,332,24
-El Señor de los Anillos: El Retorno del Rey,J.R.R. Tolkien,Fantasía Épica,Allen & Unwin,Reino Unido,Más de 150 millones,1955,416,68
-Los Juegos del Hambre: En Llamas,Suzanne Collins,Ciencia Ficción,Scholastic,EE. UU.,Más de 100 millones,2009,389,13
-Los Juegos del Hambre: Balada de pajaros cantores y serpientes,Suzanne Collins,Ciencia Ficción,Scholastic,EE. UU.,Más de 80 millones,2020,410,2
+﻿libro|autor|tipo|editorial|paisAutor|ejemplaresVendidos|fechaPublicacion| cantidadPaginas| antiguedad
+Don Quijote de la Mancha|Miguel de Cervantes|Novela de Caballerías|Juan de la Cuesta|España|Más de 500 millones|1605|1072|416
+El Señor de los Anillos: La Comunidad del Anillo|J.R.R. Tolkien|Fantasía Épica|Allen & Unwin|Reino Unido|Más de 150 millones|1954|1178|68
+Harry Potter y la Piedra Filosofal|J.K. Rowling|Fantasía|Bloomsbury|Reino Unido|Más de 120 millones|1997|332|24
+Cien Años de Soledad|Gabriel García Márquez|Realismo Mágico|Editorial Sudamericana|Colombia|Más de 30 millones|1967|448|56
+1984|George Orwell|Distopía|Secker & Warburg|Reino Unido|Más de 30 millones|1949|328|74
+El Gran Gatsby|F. Scott Fitzgerald|Novela Americanista|Charles Scribner's Sons|EE. UU.|Más de 30 millones|1925|180|98
+Matar un Ruiseñor|Harper Lee|Novela Legal|J.B. Lippincott & Co.|EE. UU.|Más de 40 millones|1960|376|61
+Crónica de una Muerte Anunciada|Gabriel García Márquez|Novela Realista|Editorial La Oveja Negra|Colombia|Más de 30 millones|1981|128|42
+El Alquimista|Paulo Coelho|Ficción Espiritual|HarperOne|Brasil|Más de 65 millones|1988|197|33
+El Código Da Vinci|Dan Brown|Thriller de Conspiración|Doubleday|EE. UU.|Más de 80 millones|2003|454|18
+El Hobbit|J.R.R. Tolkien|Fantasía|Allen & Unwin|Reino Unido|Más de 100 millones|1937|310|86
+El Niño con el Pijama de Rayas|John Boyne|Ficción Histórica|David Fickling Books|Irlanda|Más de 7 millones|2006|215|17
+Los Juegos del Hambre|Suzanne Collins|Ciencia Ficción|Scholastic|EE. UU.|Más de 100 millones|2008|374|14
+Orgullo y Prejuicio|Jane Austen|Novela Romántica|T. Egerton|Reino Unido|Más de 20 millones|1813|279|208
+Cazadores de Sombras: Ciudad de Hueso|Cassandra Clare|Fantasía Urbana|Simon & Schuster|EE. UU.|Más de 50 millones|2007|485|16
+Los Pilares de la Tierra|Ken Follett|Novela Histórica|William Morrow|Reino Unido|Más de 26 millones|1989|973|32
+Los Juegos del Hambre: Sinsajo|Suzanne Collins|Ciencia Ficción|Scholastic|EE. UU.|Más de 80 millones|2010|340|12
+La Sombra del Viento|Carlos Ruiz Zafón|Misterio|Planeta|España|Más de 15 millones|2001|535|22
+El Corredor del Laberinto|James Dashner|Ciencia Ficción|Delacorte Press|EE. UU.|Más de 7 millones|2009|384|12
+El Perfume|Patrick Süskind|Novela Histórica|Diogenes Verlag|Alemania|Más de 20 millones|1985|255|36
+Los Hombres Me Explican Cosas|Rebecca Solnit|Ensayo|Haymarket Books|EE. UU.|Más de 500000|2014|176|7
+El Señor de los Anillos: Las Dos Torres|J.R.R. Tolkien|Fantasía Épica|Allen & Unwin|Reino Unido|Más de 150 millones|1954|416|68
+Las Crónicas de Narnia: El León, la Bruja y el Ropero|C.S. Lewis|Fantasía|Geoffrey Bles|Reino Unido|Más de 100 millones|1950|208|71
+El Cuento de la Criada|Margaret Atwood|Drama Distópico|McClelland & Stewart|Canadá|Más de 8 millones|1985|311|36
+El Cazador de Sueños|Stephen King|Terror|Scribner|EE. UU.|Más de 20 millones|2001|672|20
+El Nombre del Viento|Patrick Rothfuss|Fantasía Épica|Daw Books|EE. UU.|Más de 10 millones|2007|662|14
+1984|George Orwell|Distopía|Harvill Secker|Reino Unido|Más de 30 millones|1949|336|74
+Harry Potter y la Cámara Secreta|J.K. Rowling|Fantasía|Bloomsbury|Reino Unido|Más de 77 millones|1998|360|23
+Don Quijote de la Mancha|Miguel de Cervantes|Novela de Caballerías|Juan de la Cuesta|España|Más de 500 millones|1605|1072|416
+El Señor de los Anillos|J.R.R. Tolkien|Fantasía Épica|Allen & Unwin|Reino Unido|Más de 150 millones|1954|1178|68
+Harry Potter y la Piedra Filosofal|J.K. Rowling|Fantasía|Bloomsbury|Reino Unido|Más de 120 millones|1997|332|24
+El Señor de los Anillos: El Retorno del Rey|J.R.R. Tolkien|Fantasía Épica|Allen & Unwin|Reino Unido|Más de 150 millones|1955|416|68
+Los Juegos del Hambre: En Llamas|Suzanne Collins|Ciencia Ficción|Scholastic|EE. UU.|Más de 100 millones|2009|389|13
+Los Juegos del Hambre: Balada de pajaros cantores y serpientes|Suzanne Collins|Ciencia Ficción|Scholastic|EE. UU.|Más de 80 millones|2020|410|2
