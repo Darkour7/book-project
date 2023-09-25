@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.Objects;
 
 public class Book {
 
@@ -6,25 +7,35 @@ public class Book {
     private int releaseDate;
     private Author author;
     private String editorial;
-    //private String type;
-    //private String soldUnits;
-    //private int pageQuantity;
-    //private int antiquityYears;
+    private BookType type;
+    private String soldUnits;
+    private int pageQuantity;
+    private int antiquityYears;
 
     public Book(){}
 
-    public Book(String bookName, int releaseDate, Author author, String editorial){
+    public Book(String bookName, int releaseDate, Author author, String editorial, BookType bookType, String soldUnits,
+                int pageQuantity, int antiquityYears){
         this.bookName = bookName;
         this.releaseDate = releaseDate;
         this.author = author;
         this.editorial = editorial;
+        this.type = bookType;
+        this.soldUnits = soldUnits;
+        this.pageQuantity = pageQuantity;
+        this.antiquityYears = antiquityYears;
     }
 
-    public Book(String bookName, int releaseDate, String authorName, String authorOriginCountry, String editorial){
+    public Book(String bookName, int releaseDate, String authorName, String authorOriginCountry, String editorial,
+                BookType bookType, String soldUnits, int pageQuantity, int antiquityYears){
         this.bookName = bookName;
         this.releaseDate = releaseDate;
         this.author = new Author(authorName, authorOriginCountry);
         this.editorial = editorial;
+        this.type = bookType;
+        this.soldUnits = soldUnits;
+        this.pageQuantity = pageQuantity;
+        this.antiquityYears = antiquityYears;
     }
 
     public String getBookName() {
@@ -59,10 +70,40 @@ public class Book {
         this.editorial = editorial;
     }
 
-    @Override
-    public String toString(){
-        return "\"\"%s\"\" - (%s) \n Written by: %s \n Published by: %s"
-                .formatted(this.getBookName(), this.getReleaseDate() ,this.getAuthor().toString(), this.getEditorial());
+    public void setType(BookType type) {
+        this.type = type;
     }
 
+    public void setPageQuantity(int pageQuantity) {
+        this.pageQuantity = pageQuantity;
+    }
+
+    public void setSoldUnits(String soldUnits) {
+        this.soldUnits = soldUnits;
+    }
+
+    public void setAntiquityYears(int antiquityYears) {
+        this.antiquityYears = antiquityYears;
+    }
+
+
+    @Override
+    public String toString(){
+        return bookName + releaseDate + author.toString() + editorial;
+    }
+    @Override
+    public boolean equals(Object obj){
+        // libro, autor, fechaPublicacion
+        if(obj instanceof Book){
+            Book otherBook = (Book) obj;
+            return  this.getBookName().equals(otherBook.bookName) &&
+                    this.getAuthor().equals(otherBook.author) &&
+                    this.getReleaseDate() == otherBook.releaseDate;
+        }
+        return false;
+    }
+    @Override
+    public int hashCode(){
+        return Objects.hash(this.getBookName() + this.getAuthor() + this.getReleaseDate());
+    }
 }
